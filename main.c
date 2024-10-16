@@ -17,9 +17,10 @@ int main()
     switch (opcion)
     {
     case 1:
-      printf("La linea recta.\n");
+      // printf("La linea recta.\n");
       int opcion_lr;
-      do {
+      do
+      {
         printf("\n----- La linea recta -----\n");
         printf("1. Ecuación de la recta dada su pendiente y un punto de la misma\n");
         printf("2. Ecuación de la recta que pasa por dos puntos \n");
@@ -29,19 +30,7 @@ int main()
         printf("6. Regresar al menu principal\n");
         scanf("%d", &opcion_lr);
 
-        switch (opcion_lr)
-        {
-        case 1:
-          int a;
-          a = FuncionPrueba(1,2);
-          // printf("1.Ecuación de la recta dada su pendiente y un punto de la misma\n");
-          printf("\n%d", a);
-
-          break;
-        
-        default:
-          break;
-        }
+        MenuLineaRecta(opcion_lr);
       } while (opcion_lr != 6);
 
       break;
