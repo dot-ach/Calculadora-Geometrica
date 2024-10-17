@@ -1,4 +1,6 @@
-int FuncionPrueba(int a, int b)
+float EcuasionPendiente(int m, int x, int b)
 {
-  return a + b;
+  int y;
+  y = (m*x) + b;
+  return y;
 }
