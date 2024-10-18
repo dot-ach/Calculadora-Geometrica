@@ -2,6 +2,7 @@
 // #include ""
 #include "mostrar_menu_principal.h"
 #include "menu_linea_recta.h"
+#include "funciones_circunferencia.h"
 
 int main()
 {
@@ -20,7 +21,8 @@ int main()
 
       break;
     case 2:
-      printf("La circunferencia.\n");
+      // printf("La circunferencia.\n");
+      MenuCircunferencia();
       break;
     case 3:
       printf("Coordenadas polares.\n");
