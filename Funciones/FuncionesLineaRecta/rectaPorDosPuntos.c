@@ -1,4 +1,7 @@
-float RectaPorDosPuntos(int x1, int y1, int x2, int y2, int m, int b)
+#include <stdio.h>
+#include "../funcionesParaOperaciones.h"
+
+void RectaPorDosPuntos()
 {
   int x1, y1, x2, y2, m, b; 
     printf("2.Ecuación de la recta que pasa por dos puntos: ");
@@ -13,8 +16,10 @@ float RectaPorDosPuntos(int x1, int y1, int x2, int y2, int m, int b)
     scanf("%d", &y2);
 
 
-    m = (y2 - y1) / (x2 - y2);
-    b = y1 - (m * x1); 
+    m = EcuasionPendiente(x1, y1, x2, y2);
+    b = OrdenadaAlOrigen(m, y1, x1); 
 
-    return ;
+    printf("Pendiente: %d", m);
+    printf("Interseccón: %d", b);
+    
 }

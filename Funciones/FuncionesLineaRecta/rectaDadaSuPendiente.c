@@ -1,4 +1,4 @@
-float EcuasionPendiente(int m, int x, int b)
+float EcuasionRectaPendiente(int m, int x, int b)
 {
   int y;
   y = (m*x) + b;

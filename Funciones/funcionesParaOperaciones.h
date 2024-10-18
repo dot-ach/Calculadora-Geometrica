@@ -1,5 +1,7 @@
 void MenuLineaRecta(int opcion_lr);
-float EcuasionPendiente(int m, int x, int b);
-float RectaPorDosPuntos(int x1, int y1, int x2, int y2, int m, int b);
+float EcuasionRectaPendiente(int m, int x, int b);
+float EcuasionPendiente(int x1,int y1,int x2,int y2);
+float OrdenadaAlOrigen(int m, int y1, int x1);
+void RectaPorDosPuntos();
 
 // int FuncionPrueba(int a, int b);
