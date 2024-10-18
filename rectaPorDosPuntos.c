@@ -1,5 +1,5 @@
 #include <stdio.h>
-#include "../funcionesParaOperaciones.h"
+#include "funciones_linea_recta.h"
 
 void RectaPorDosPuntos()
 {

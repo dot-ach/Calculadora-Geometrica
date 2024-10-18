@@ -1,6 +1,7 @@
 #include <stdio.h>
-#include "Funciones/funcionesParaOperaciones.h"
+// #include ""
 #include "mostrar_menu_principal.h"
+#include "menu_linea_recta.h"
 
 int main()
 {
