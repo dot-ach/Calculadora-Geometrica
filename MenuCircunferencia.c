@@ -17,7 +17,16 @@ void MenuCircunferencia()
   switch(opcion_cir) 
   {
     case 1:
-      printf("opcion 1");
+      printf("opcion 1\n");
+    break;
+    case 2:
+      printf("opcion 2\n");
+    break;
+    case 3:
+      printf("opcion 3\n");
+    break;
+    case 4:
+      printf("opcion 4\n");
     break;
   }
   }while (opcion_cir != 5);

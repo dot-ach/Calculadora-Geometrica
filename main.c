@@ -3,6 +3,7 @@
 #include "mostrar_menu_principal.h"
 #include "menu_linea_recta.h"
 #include "funciones_circunferencia.h"
+#include "funciones_coordenadas_polares.h"
 
 int main()
 {
@@ -25,7 +26,8 @@ int main()
       MenuCircunferencia();
       break;
     case 3:
-      printf("Coordenadas polares.\n");
+      // printf("Coordenadas polares.\n");
+      MenuCoordenadasPolares();  
       break;
     case 4:
       printf("Saliendo del programa...\n");
