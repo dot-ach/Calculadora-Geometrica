@@ -4,9 +4,10 @@
 void RectaPorDosPuntos()
 {
   int x1, y1, x2, y2, m, b; 
-    printf("2.Ecuación de la recta que pasa por dos puntos: ");
+    printf("2.Ecuación de la recta que pasa por dos puntos: \n");
     
-    printf("Ingrese el punto x1:\n");
+   
+   printf("Ingrese el punto x1:\n");
     scanf("%d", &x1);
     printf("Ingrese el punto y1:\n");
     scanf("%d", &y1);
