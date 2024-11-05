@@ -23,7 +23,15 @@ void MenuLineaRecta()
         break;
       case 2:
         RectaPorDosPuntos();
-
+        break;  
+      case 3:
+        DistanciaEntreDosPuntos();
+        break;
+      case 4:
+        PuntoMedioEntreDosPuntos();
+        break;  
+      case 5:
+        PerimetroAreaTriangulo();
         break;  
 
       default:
