@@ -17,16 +17,16 @@ void MenuCircunferencia()
   switch(opcion_cir) 
   {
     case 1:
-      printf("opcion 1\n");
+      CentroOrigen_RadioR();
     break;
     case 2:
-      printf("opcion 2\n");
+      CentroC_RadioR();
     break;
     case 3:
-      printf("opcion 3\n");
+      CentroC_PuntoP();
     break;
     case 4:
-      printf("opcion 4\n");
+      P1_P2_Extremos_Diametro();
     break;
   }
   }while (opcion_cir != 5);
