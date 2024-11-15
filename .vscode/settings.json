@@ -1,5 +1,6 @@
 {
   "files.associations": {
-    "funcionesparaoperaciones.h": "c"
+    "funcionesparaoperaciones.h": "c",
+    "funciones_coordenadas_polares.h": "c"
   }
 }

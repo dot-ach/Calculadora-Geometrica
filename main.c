@@ -27,7 +27,7 @@ int main()
       break;
     case 3:
       // printf("Coordenadas polares.\n");
-      MenuCoordenadasPolares();  
+      MenuCoordenadasPolares();
       break;
     case 4:
       printf("Saliendo del programa...\n");
